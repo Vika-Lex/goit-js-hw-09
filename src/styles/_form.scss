@@ -1,0 +1,30 @@
+.feedback-form {
+  //Стили для ФОРМЫ
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
+  // .feedback-form__input
+
+  &__input {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  // .feedback-form__textarea
+
+  &__textarea {
+    padding: 10px;
+    resize: none;
+  }
+
+  // .feedback-form__button
+
+  &__button {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+  }
+}
